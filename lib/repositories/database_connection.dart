@@ -13,6 +13,8 @@ class DatabaseConnection{
 
   _onCreatingDatabase(Database database, int version) async {
     await database.execute("CREATE TABLE Categories(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, description TEXT)");
+    
+    await database.execute("CREATE TABLE todos(id INTEGER PRIMARY KEY,title TEXT, description TEXT, category TEXT,todoDate TEXT, isFinished INTEGER)");
   }
 
 }

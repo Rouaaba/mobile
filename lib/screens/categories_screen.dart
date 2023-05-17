@@ -66,7 +66,10 @@ final GlobalKey<ScaffoldState> _globalKey= GlobalKey<ScaffoldState>();
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
               foregroundColor:MaterialStateProperty.all<Color>(Colors.white) ),
-              onPressed: (){} ,
+              onPressed: (){
+                Navigator.pop(context);
+
+              } ,
               child: Text('Cancel')),
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.blueAccent),
@@ -117,7 +120,10 @@ final GlobalKey<ScaffoldState> _globalKey= GlobalKey<ScaffoldState>();
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                   foregroundColor:MaterialStateProperty.all<Color>(Colors.white) ),
-              onPressed: (){} ,
+              onPressed: (){
+                Navigator.pop(context);
+
+              } ,
               child: Text('Cancel')),
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.blueAccent),
@@ -170,7 +176,10 @@ final GlobalKey<ScaffoldState> _globalKey= GlobalKey<ScaffoldState>();
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
                   foregroundColor:MaterialStateProperty.all<Color>(Colors.white) ),
-              onPressed: (){} ,
+              onPressed: (){
+                Navigator.pop(context);
+
+              } ,
               child: Text('Cancel')),
           TextButton(
               style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
